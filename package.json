@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "tutorial or intro to backend",
+  "homepage": "https://github.com/zaidhassan282/backend#readme",
+  "bugs": {
+    "url": "https://github.com/zaidhassan282/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidhassan282/backend.git"
+  },
+  "license": "ISC",
+  "author": "Zaid Hassan",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
+}
